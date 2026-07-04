@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "EatChat",
+    "slug": "eatchat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "eatchat",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eatchat.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ff6b35",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.eatchat.app",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router", "expo-constants"]
+  }
+}
