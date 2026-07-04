@@ -168,6 +168,7 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: "#ff6b35",
   },
+  avatarEmoji: { fontSize: 40 },
   avatarImage: { width: 60, height: 60 },
   editAvatarButton: {
     position: "absolute",

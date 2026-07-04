@@ -72,7 +72,7 @@ export default function CompleteProfileScreen() {
         <View style={styles.avatarContainer}>
           <View style={styles.avatar}>
             <Image
-              source={require("@assets/icon.png")}
+              source={require("@/assets/icon.png")}
               style={styles.avatarImage}
               resizeMode="contain"
             />
