@@ -9,7 +9,6 @@ import {
   TouchableOpacity,
   ScrollView,
   Alert,
-  Image,
 } from "react-native";
 import { useRouter } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -56,11 +55,7 @@ export default function ProfileScreen() {
         <View style={styles.profileHeader}>
           <View style={styles.avatarContainer}>
             <View style={styles.avatar}>
-              <Image
-                source={require("@assets/icon.png")}
-                style={styles.avatarImage}
-                resizeMode="contain"
-              />
+              <Text style={styles.avatarEmoji}>🍔</Text>
             </View>
             <TouchableOpacity style={styles.editAvatarButton}>
               <Text style={styles.editAvatarText}>✏️</Text>
