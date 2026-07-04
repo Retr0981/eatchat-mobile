@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
+    "@opentelemetry/api": "^1.9.1",
     "@supabase/supabase-js": "^2.110.0",
     "expo": "~57.0.2",
     "expo-constants": "^57.0.3",
@@ -12,13 +13,14 @@
     "nativewind": "^4.2.6",
     "react": "19.2.3",
     "react-native": "0.86.0",
-    "react-native-maps": "^1.29.0",
-    "react-native-safe-area-context": "^5.8.0",
+    "react-native-maps": "1.27.2",
+    "react-native-safe-area-context": "~5.7.0",
     "react-native-screens": "^4.25.2",
     "zustand": "^5.0.14"
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
+    "babel-preset-expo": "~57.0.1",
     "typescript": "~6.0.3"
   },
   "scripts": {
