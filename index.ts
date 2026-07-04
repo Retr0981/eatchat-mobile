@@ -1,8 +1,6 @@
-import { registerRootComponent } from 'expo';
-
-import App from './App';
-
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(App);
+/**
+ * App Entry Point — Expo Router handles root component registration.
+ * We just import the router entry and initialize Supabase before navigation loads.
+ */
+import "@/lib/supabase"; // Initialize Supabase client early
+import "expo-router/entry";
