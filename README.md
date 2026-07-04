@@ -1,4 +1,4 @@
-# 📱 EatChat Mobile App — Build It From Scratch (Beginner Guide)
+npx expo start -i# 📱 EatChat Mobile App — Build It From Scratch (Beginner Guide)
 
 > **Who this is for:** Someone who has never built a mobile app before. This guide explains everything in plain English — what each tool does, why we use it, and how every piece fits together. You'll understand how to build this app yourself from zero.
 
